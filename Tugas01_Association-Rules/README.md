@@ -1,13 +1,13 @@
 # Association Rules
 Association Rules yaitu aturan yang menyajikan asosiasi atau korelasi antara kumpulan item. contoh ilustrasinya yaitu terdapat beberapa transaksi, dimana transaksinya itu mengandung beberapa item. Sebuah association rules dalam bentuk A ⇒ B, dimana A dan B adalah dua kumpulan item disjoint (saling terpisah), yang masing-masing disebut sebagai aturan lhs (left-hand side, sisi kiri) dan rhs (right-hand side, sisi kanan). Tiga ukuran yang paling banyak digunakan untuk memilih aturan (rules) menarik yaitu:
 - **_Support_** adalah adalah ukuran atau presentasi munculnya sebuah itemset dalam sebuah transaksi. Pertimbangkan itemset1 = {Roti, Mentega} dan itemset2 = {Roti, Sampo}. Dalam hal ini transaksi yang memiliki roti dan mentega akan lebih banyak dibandingkan roti dan sampo, sehingga itemset1 umumnya memiliki support yang lebih tinggi daripada itemset2.
-Nilai support sebuah item diperoleh dengan rumus berikut:![GitHub Logo](/images/logo.png)
-Sedangkan nilai support dari 2 item diperoleh dari rumus berikut:![GitHub Logo](/images/logo.png)
+Nilai support sebuah item diperoleh dengan rumus berikut:![Alt Text](/images/logo.png)
+Sedangkan nilai support dari 2 item diperoleh dari rumus berikut:![Alt Text](/images/logo.png)
 Jika sebuah itemset kebetulan memiliki support yang sangat rendah, kita tidak dapat mengambil informasi yang cukup tentang hubungan antar itemnya dan karenanya tidak ada kesimpulan yang dapat ditarik dari aturan seperti itu.
 - **_Confidence_** adalah kuatnya hubungan antar item dalam aturan asosiasi. Dapat dikatakan sebagai nilai presentase atau ukuran kemungkinan munculnya Consecuent diantara semua grup yang berisi Antercedent. Semakin tinggi nilainya, maka semakin besar kemungkinan item Consecuent muncul jika diketahui bahwa semua item Antercedent muncul dalam itemset tersebut.
-Nilai confidence dari aturan A → B diperoleh dari rumus berikut :![GitHub Logo](/images/logo.png)
-- **_Lift_** adalah suatu ukuran untuk mengetahui kekuatan aturan asosisasi (association rule) yang telah terbentuk. Nilai lift ratio biasanya digunakan sebagai penentu apakah aturan asosiasi valid atau tidak valid. Untuk menghitung lift ratio digunakam rumus sebagai berikut:![GitHub Logo](/images/logo.png)
-Untuk mendapatkan nilai benchmark confidence sendiri dapat dihitung menggunakan rumus sebagai berikut:![GitHub Logo](/images/logo.png)
+Nilai confidence dari aturan A → B diperoleh dari rumus berikut :![Alt Text](/images/logo.png)
+- **_Lift_** adalah suatu ukuran untuk mengetahui kekuatan aturan asosisasi (association rule) yang telah terbentuk. Nilai lift ratio biasanya digunakan sebagai penentu apakah aturan asosiasi valid atau tidak valid. Untuk menghitung lift ratio digunakam rumus sebagai berikut:![Alt Text](/images/logo.png)
+Untuk mendapatkan nilai benchmark confidence sendiri dapat dihitung menggunakan rumus sebagai berikut:![Alt Text](/images/logo.png)
 dimana :
 Nc = Jumlah transaksi dengan item yang menjadi consequent
 N = jumlah transaksi basis data
