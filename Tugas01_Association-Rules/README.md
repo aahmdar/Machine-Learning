@@ -32,8 +32,8 @@ Untuk mendapatkan nilai benchmark confidence sendiri dapat dihitung menggunakan 
 ![Alt Text](https://drive.google.com/uc?export=download&id=1fGkxIJaCRuiA7bgW6RZILmdbb6s0luCf)
 
 dimana :
-Nc = Jumlah transaksi dengan item yang menjadi consequent
-N = jumlah transaksi basis data
+- Nc = Jumlah transaksi dengan item yang menjadi consequent
+- N = jumlah transaksi basis data
 
 ***
 
